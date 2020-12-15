@@ -4,16 +4,16 @@
 ![alt text](https://github.com/alfajor144/UruguayBus/blob/main/Documentacion/home.png?raw=true)
 ### Image 1. Home page.
 
-![alt text](https://github.com/alfajor144/UruguayBus/tree/main/Documentacion/login.png?raw=true)
+![alt text](https://github.com/alfajor144/UruguayBus/blob/main/Documentacion/login.png?raw=true)
 ### Image 2. Login page.
 
-![alt text](https://github.com/alfajor144/UruguayBus/tree/main/Documentacion/Vehiculos.png?raw=true)
+![alt text](https://github.com/alfajor144/UruguayBus/blob/main/Documentacion/Vehiculos.png?raw=true)
 ### Image 3. Bus tracking.
 
-![alt text](https://github.com/alfajor144/UruguayBus/tree/main/Documentacion/terminal.png?raw=true)
+![alt text](https://github.com/alfajor144/UruguayBus/blob/main/Documentacion/terminal.png?raw=true)
 ### Image 4. Self-management terminal.
 
-![alt text](https://github.com/alfajor144/UruguayBus/tree/main/Documentacion/MercadoPago.png?raw=true)
+![alt text](https://github.com/alfajor144/UruguayBus/blob/main/Documentacion/MercadoPago.png?raw=true)
 ### Image 5. Buy ticket (MercadoPago).
 
 ------
