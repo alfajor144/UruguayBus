@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="uybusModelStoreContainer" CdmEntityContainer="uybusEntities">
+    <EntitySetMapping Name="Admin">
+      <EntityTypeMapping TypeName="uybusModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Conductor">
+      <EntityTypeMapping TypeName="uybusModel.Conductor">
+        <MappingFragment StoreEntitySet="Conductor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="VencimientoLicencia" ColumnName="VencimientoLicencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Linea">
+      <EntityTypeMapping TypeName="uybusModel.Linea">
+        <MappingFragment StoreEntitySet="Linea">
+          <ScalarProperty Name="IdLinea" ColumnName="IdLinea" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parada">
+      <EntityTypeMapping TypeName="uybusModel.Parada">
+        <MappingFragment StoreEntitySet="Parada">
+          <ScalarProperty Name="IdParada" ColumnName="IdParada" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parametro">
+      <EntityTypeMapping TypeName="uybusModel.Parametro">
+        <MappingFragment StoreEntitySet="Parametro">
+          <ScalarProperty Name="IdParametro" ColumnName="IdParametro" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pasaje">
+      <EntityTypeMapping TypeName="uybusModel.Pasaje">
+        <MappingFragment StoreEntitySet="Pasaje">
+          <ScalarProperty Name="IdPasaje" ColumnName="IdPasaje" />
+          <ScalarProperty Name="Asientos" ColumnName="Asientos" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="TipoDocuemtno" ColumnName="TipoDocuemtno" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdViaje" ColumnName="IdViaje" />
+          <ScalarProperty Name="IdParadaDestino" ColumnName="IdParadaDestino" />
+          <ScalarProperty Name="IdParadaOrigen" ColumnName="IdParadaOrigen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Persona">
+      <EntityTypeMapping TypeName="uybusModel.Persona">
+        <MappingFragment StoreEntitySet="Persona">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="TipoDocumento" ColumnName="TipoDocumento" />
+          <ScalarProperty Name="pNombre" ColumnName="pNombre" />
+          <ScalarProperty Name="sNombre" ColumnName="sNombre" />
+          <ScalarProperty Name="pApellido" ColumnName="pApellido" />
+          <ScalarProperty Name="sApellido" ColumnName="sApellido" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Precio">
+      <EntityTypeMapping TypeName="uybusModel.Precio">
+        <MappingFragment StoreEntitySet="Precio">
+          <ScalarProperty Name="IdPrecio" ColumnName="IdPrecio" />
+          <ScalarProperty Name="Precio1" ColumnName="Precio" />
+          <ScalarProperty Name="FechaEntradaVigencia" ColumnName="FechaEntradaVigencia" />
+          <ScalarProperty Name="IdLinea" ColumnName="IdLinea" />
+          <ScalarProperty Name="IdParada" ColumnName="IdParada" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Salida">
+      <EntityTypeMapping TypeName="uybusModel.Salida">
+        <MappingFragment StoreEntitySet="Salida">
+          <ScalarProperty Name="IdSalida" ColumnName="IdSalida" />
+          <ScalarProperty Name="HoraInicio" ColumnName="HoraInicio" />
+          <ScalarProperty Name="IdConductor" ColumnName="IdConductor" />
+          <ScalarProperty Name="IdVehiculo" ColumnName="IdVehiculo" />
+          <ScalarProperty Name="IdLinea" ColumnName="IdLinea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SuperAdmin">
+      <EntityTypeMapping TypeName="uybusModel.SuperAdmin">
+        <MappingFragment StoreEntitySet="SuperAdmin">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tramo">
+      <EntityTypeMapping TypeName="uybusModel.Tramo">
+        <MappingFragment StoreEntitySet="Tramo">
+          <ScalarProperty Name="Orden" ColumnName="Orden" />
+          <ScalarProperty Name="IdLinea" ColumnName="IdLinea" />
+          <ScalarProperty Name="IdParada" ColumnName="IdParada" />
+          <ScalarProperty Name="TiempoEstimado" ColumnName="TiempoEstimado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="uybusModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vehiculo">
+      <EntityTypeMapping TypeName="uybusModel.Vehiculo">
+        <MappingFragment StoreEntitySet="Vehiculo">
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="CantAsientos" ColumnName="CantAsientos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Viaje">
+      <EntityTypeMapping TypeName="uybusModel.Viaje">
+        <MappingFragment StoreEntitySet="Viaje">
+          <ScalarProperty Name="IdViaje" ColumnName="IdViaje" />
+          <ScalarProperty Name="Finalizado" ColumnName="Finalizado" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="HoraInicioReal" ColumnName="HoraInicioReal" />
+          <ScalarProperty Name="IdSalida" ColumnName="IdSalida" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Llegada">
+      <EntityTypeMapping TypeName="uybusModel.Llegada">
+        <MappingFragment StoreEntitySet="Llegada">
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="hora" ColumnName="hora" />
+          <ScalarProperty Name="idViaje" ColumnName="idViaje" />
+          <ScalarProperty Name="idParada" ColumnName="idParada" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,14 @@
+C:\a\UruguayBus\DataAcessLayer\bin\Debug\DataAcessLayer.dll.config
+C:\a\UruguayBus\DataAcessLayer\bin\Debug\DataAcessLayer.dll
+C:\a\UruguayBus\DataAcessLayer\bin\Debug\DataAcessLayer.pdb
+C:\a\UruguayBus\DataAcessLayer\bin\Debug\EntityFramework.dll
+C:\a\UruguayBus\DataAcessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\a\UruguayBus\DataAcessLayer\bin\Debug\Share.dll
+C:\a\UruguayBus\DataAcessLayer\bin\Debug\Share.pdb
+C:\a\UruguayBus\DataAcessLayer\bin\Debug\EntityFramework.xml
+C:\a\UruguayBus\DataAcessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\a\UruguayBus\DataAcessLayer\obj\Debug\DataAcessLayer.csprojAssemblyReference.cache
+C:\a\UruguayBus\DataAcessLayer\obj\Debug\DataAcessLayer.csproj.CoreCompileInputs.cache
+C:\a\UruguayBus\DataAcessLayer\obj\Debug\DataAcessLayer.csproj.CopyComplete
+C:\a\UruguayBus\DataAcessLayer\obj\Debug\DataAcessLayer.dll
+C:\a\UruguayBus\DataAcessLayer\obj\Debug\DataAcessLayer.pdb

@@ -1,0 +1,17 @@
+C:\a\UruguayBus\BuisnessLayer\bin\Debug\BuisnessLayer.dll
+C:\a\UruguayBus\BuisnessLayer\bin\Debug\BuisnessLayer.pdb
+C:\a\UruguayBus\BuisnessLayer\bin\Debug\BouncyCastle.Crypto.dll
+C:\a\UruguayBus\BuisnessLayer\bin\Debug\DataAcessLayer.dll
+C:\a\UruguayBus\BuisnessLayer\bin\Debug\itextsharp.dll
+C:\a\UruguayBus\BuisnessLayer\bin\Debug\Share.dll
+C:\a\UruguayBus\BuisnessLayer\bin\Debug\EntityFramework.dll
+C:\a\UruguayBus\BuisnessLayer\bin\Debug\DataAcessLayer.pdb
+C:\a\UruguayBus\BuisnessLayer\bin\Debug\DataAcessLayer.dll.config
+C:\a\UruguayBus\BuisnessLayer\bin\Debug\Share.pdb
+C:\a\UruguayBus\BuisnessLayer\bin\Debug\itextsharp.xml
+C:\a\UruguayBus\BuisnessLayer\bin\Debug\EntityFramework.xml
+C:\a\UruguayBus\BuisnessLayer\obj\Debug\BuisnessLayer.csprojAssemblyReference.cache
+C:\a\UruguayBus\BuisnessLayer\obj\Debug\BuisnessLayer.csproj.CoreCompileInputs.cache
+C:\a\UruguayBus\BuisnessLayer\obj\Debug\BuisnessLayer.csproj.CopyComplete
+C:\a\UruguayBus\BuisnessLayer\obj\Debug\BuisnessLayer.dll
+C:\a\UruguayBus\BuisnessLayer\obj\Debug\BuisnessLayer.pdb

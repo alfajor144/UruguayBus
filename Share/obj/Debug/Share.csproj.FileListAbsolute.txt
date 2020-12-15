@@ -1,0 +1,5 @@
+C:\a\UruguayBus\Share\bin\Debug\Share.dll
+C:\a\UruguayBus\Share\bin\Debug\Share.pdb
+C:\a\UruguayBus\Share\obj\Debug\Share.csproj.CoreCompileInputs.cache
+C:\a\UruguayBus\Share\obj\Debug\Share.dll
+C:\a\UruguayBus\Share\obj\Debug\Share.pdb
