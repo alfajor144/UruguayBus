@@ -1,7 +1,7 @@
 # UruguayBus
 ## Public transport management system
 
-![alt text](https://github.com/alfajor144/UruguayBus/tree/main/Documentacion/home.png?raw=true)
+![alt text](https://github.com/alfajor144/UruguayBus/blob/main/Documentacion/home.png?raw=true)
 ### Image 1. Home page.
 
 ![alt text](https://github.com/alfajor144/UruguayBus/tree/main/Documentacion/login.png?raw=true)
