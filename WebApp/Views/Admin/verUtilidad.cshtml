@@ -1,0 +1,34 @@
+﻿@model Share.DTOs.DTOUtilidadFinal
+
+@{
+    ViewBag.Title = "verUtilidad";
+}
+
+<h2>Porcentaje de utilidad</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+            @if (Model.Valor == -100)
+            {
+                <text>Identificador no encontrado.</text>
+            }
+            else 
+            {
+                <dt>
+                    @Html.DisplayNameFor(model => model.Valor)
+                </dt>
+
+                <dd>
+           
+                    @Html.DisplayFor(model => model.Valor) %
+                </dd>
+                
+            }
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Ir al inicio", "Index")
+</p>

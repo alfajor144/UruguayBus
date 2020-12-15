@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Share.entities.ESalida>
+
+@{
+    ViewBag.Title = "traerSalida";
+}
+
+<h2>Salida</h2>
+
+<p>
+    @Html.ActionLink("Nueva salida", "traerCondSallida")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Identificador de Salida
+        </th>
+        <th>
+           Hora de Inicio
+        </th>
+        <th>
+           Identificador de Conductor
+        </th>
+        <th>
+            Identificador de Vehiculo
+        </th>
+        <th>
+           Identificador de Linea
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdSalida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraInicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdConductor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdVehiculo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdLinea)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "editarSalida", new { id = item.IdSalida}) 
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+<div>
+    @Html.ActionLink("ir al inicio", "index")
+</div>
